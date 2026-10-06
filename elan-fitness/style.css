@@ -78,6 +78,12 @@ button:focus-visible {
   color: #4B5563;
 }
 
+.img-logo {
+  /* display: flex; */
+  width: 4%;
+  /* padding: 2%; */
+}
+
 .sur-titre {
   font-size: 14px;
   font-weight: 600;
