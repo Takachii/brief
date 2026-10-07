@@ -23,7 +23,11 @@
 
         <header class="en-tete">
             <div class="conteneur en-tete-contenu">
-                <a href="../index.html" class="logo">Élan Fitness</a>
+
+                <a href="index.html" class="logo">
+                    <img class="logo-img" src="../img/logo.png" alt="">
+                    Élan Fitness
+                </a>
 
                 <nav aria-label="Navigation principale">
                 <ul class="menu">
@@ -45,16 +49,46 @@
                         <p>Contactez-nous pour obtenir une consultation directe et pour toute demande de renseignements.</p>
                     </div>
 
-                    <div class="contactez-inputs">
+                    <div class="section-contact">
 
-                        <p>Votre Nom</p>
-                        <input id="contact-name" type="text" name="" placeholder="Votre nom" required>
+                        <div class="contact-info">
+                            <h3>Nos Coordonnées</h3>
+                            <p class="intro-text">N'hésitez pas à nous contacter pour toute question ou demande de devis. Notre équipe vous répondra dans les plus brefs délais.</p>
 
-                        <p>Votre E-Mail</p>
-                        <input id="contact-name" type="email" name="" placeholder="Votre E-Mail" required>
+                            <div class="details">
+                                <p><strong>Adresse :</strong><br> 
+                                12 rue des Palmiers, 20000 Casablanca, Maroc</p>
 
-                        <p>Votre Numero Portable</p>
-                        <input id="contact-name" type="name" name="" placeholder="+212600000000" required>
+                                <p><strong>Téléphone :</strong><br> 
+                                +212 6 00 00 00 00</p>
+
+                                <p><strong>E-mail :</strong><br> 
+                                contact@elan-fitness.com</p>
+
+                                <p><strong>Horaires d'ouverture :</strong><br>
+                                Lundi - Vendredi : 06h00 - 23h00<br>
+                                Samedi : 08h00 - 21h00<br>
+                                Dimanche : 09h00 - 18h00</p>
+                            </div>
+                        </div>
+
+                        <form class="contact-inputs">
+
+                            <label for="contact-name">Nom complet</label>
+                            <input id="contact-name" type="text" name="nom" placeholder="ex: Hamza Elamyn" required>
+
+                            <label for="contact-email">Adresse E-Mail</label>
+                            <input id="contact-email" type="email" name="email" placeholder="ex: youremail@mail.com" required>
+
+                            <label for="contact-phone">Numéro de téléphone</label>
+                            <input id="contact-phone" type="tel" name="phone" placeholder="+212 6 XX XX XX XX" pattern="^(\+212|0)[5-7][0-9]{8}$" required>
+
+                            <label for="contact-message">Votre Message</label>
+                            <textarea id="contact-message" name="message" rows="5" placeholder="Parlez-nous de vos objectifs (perte de poids, musculation, essai gratuit...)" required></textarea>
+
+                            <button type="submit" class="btn-envoyer">Envoyer le message</button>
+
+                        </form>
 
                     </div>
                     
