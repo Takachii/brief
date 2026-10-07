@@ -1,2 +1,2 @@
 # Youcode | Brief (elan-fitness) Planification
-![Planification](/brief/elan-fitness/planning/planing.png)
+![Planification](planning/planing.png)
